@@ -52,3 +52,7 @@ $ npm run start:prod
     ```
     docker-compose up -d
     ```
+  5. Instalar librerias y/o dependencias mongoose
+    ```
+    npm install add @nestjs/mongoose mongoose
+    ```
