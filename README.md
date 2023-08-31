@@ -11,7 +11,11 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Proyecto de pokedex en NestJS
+
+## Stack a utilizar
+  -MongoDB
+  -NestJs
 
 ## Installation
 
@@ -32,29 +36,19 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+# ejecutar en desarrollo
+  1. Clonar repo
+  2. Ejecutar
+    ```
+    npm install
+    ```
+  3. Tener NestCli instalado
+    ```
+    npm i -g @nest/cli
+    ```
+  4. Levantar base de datos
+    ```
+    docker-compose up -d
+    ```
