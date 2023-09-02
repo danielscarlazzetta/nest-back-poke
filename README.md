@@ -56,3 +56,15 @@ $ npm run start:prod
     ```
     npm install add @nestjs/mongoose mongoose
     ```
+
+
+## Instalaciones necesarias
+
+```bash
+# Validacion para los Pipes
+$ npm install class-validator
+# uuid
+$ npm i --save-dev @types/uuid
+# Transformacion de clases
+$ npm install class-transformer
+```
