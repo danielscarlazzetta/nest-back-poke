@@ -12,4 +12,3 @@ export class ParseMongoIdPipe implements PipeTransform {
     return value;
   }
 }
-``
