@@ -26,10 +26,10 @@ $ npm install
 ## Running the app
 
 ```bash
-# development
+# desarrollo
 $ npm run start
 
-# watch mode
+# desarrollo
 $ npm run start:dev
 
 # production mode
@@ -48,7 +48,7 @@ $ npm run start:prod
     ```
     npm i -g @nest/cli
     ```
-  4. Levantar base de datos
+  4. Levantar base de datos, obligatorio para que funcione
     ```
     docker-compose up -d
     ```
@@ -67,4 +67,8 @@ $ npm install class-validator
 $ npm i --save-dev @types/uuid
 # Transformacion de clases
 $ npm install class-transformer
+# Transformacion de clases
+$ npm install axios@0.27.2
 ```
+
+
