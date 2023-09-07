@@ -56,6 +56,11 @@ $ npm run start:prod
     ```
     npm install add @nestjs/mongoose mongoose
     ```
+  6. Recargar la base de datos con api solo en postman
+
+    ```
+    localhost:3000/api/v2/seed/
+    ```
 
 
 ## Instalaciones necesarias
