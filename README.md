@@ -52,11 +52,15 @@ $ npm run start:prod
     ```
     docker-compose up -d
     ```
-  5. Instalar librerias y/o dependencias mongoose
+  5. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+  6. Completar las variables de entornos en el __.env__ 
+
+  7. Instalar librerias y/o dependencias mongoose
     ```
     npm install add @nestjs/mongoose mongoose
     ```
-  6. Recargar la base de datos con api solo en postman
+  8. Recargar la base de datos con api solo en postman
 
     ```
     localhost:3000/api/v2/seed/
@@ -72,8 +76,12 @@ $ npm install class-validator
 $ npm i --save-dev @types/uuid
 # Transformacion de clases
 $ npm install class-transformer
-# Transformacion de clases
+# Instalacion de libreria de terceros, para hacer consultas http
 $ npm install axios@0.27.2
+# Instalacion de .env, luego configurar en app.module.ts
+$ npm i @nestjs/config
+# Validar y lanzar errores por defecto, general mente se usa para variables de entorno
+$ npm i joi
 ```
 
 
