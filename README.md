@@ -65,6 +65,22 @@ $ npm run start:prod
     ```
     localhost:3000/api/v2/seed/
     ```
+  8. Build
+    ```
+    docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+    ```
+  9. Run
+    ```
+    docker-compose -f docker-compose.prod.yaml --env-file .env.prod up
+    ```
+  10. Correclo despues de crear el contenedor
+
+    ```
+    docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d
+    ```
+
+__Nota__
+Por defecto, docker-compose usa el archivo .env, por lo que si tienen el archivo .env y lo configuran con sus variables de entorno de producción, bastaría con
 
 
 ## Instalaciones necesarias
